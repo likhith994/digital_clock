@@ -18,7 +18,7 @@ if (hour === 0) {
 }
 const Clock= () =>{
     return (<div className="container">
-        <h1>{hour}:{minutes}:{seconds}</h1>
+        <h1>{hour}:{minutes}:{seconds} {period}</h1>
     </div>);
 }
 export default Clock;
