@@ -11,7 +11,6 @@ const App = () => {
             light mode
         </button>
         <Clock />
-        <Clock />
     </div>
     );
 }
